@@ -3,5 +3,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "CSSH"
+    name: "CSSH",
+    pkgConfig: "cssh.pc"
 )
