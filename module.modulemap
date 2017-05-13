@@ -1,0 +1,5 @@
+module CSSH [system] {
+  header "/usr/local/include/libssh2.h"
+  link "ssh2"
+  export *
+}
